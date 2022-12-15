@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Verdana,Geneva,sans-serif;
+}
+
+.title h1{
+	color: black;
+	font-size: 30px;
+}
+
+
+
+.title{
+	position: absolute;
+	top:0%;
+	left:38%;
+}
+
+img{
+	image-orientation:url(main.png);
+	height: 1000px;
+	width:1000px;
+	padding-left: 200px;
+}
+
+ .button{
+	position: absolute;
+	top:142%;
+	left:41%;
+}
+.link{
+	border:1px solid white;
+	padding:10px 30px;
+	color:darkred;
+	text-decoration: none;
+	transition: 0.3s ease;
+}
+
+.link:hover{
+	background-color:white;
+	color:darkred;
+}
